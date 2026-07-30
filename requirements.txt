@@ -1,5 +1,7 @@
 openai
+python-dotenv
 requests
 yfinance
+pandas
+beautifulsoup4
 feedparser
-python-dotenv
