@@ -1,8 +1,9 @@
-# OpenAI API Key
-OPENAI_API_KEY = ""
+import os
+from dotenv import load_dotenv
 
-# 카카오 REST API Key
-KAKAO_REST_API_KEY = ""
+load_dotenv()
 
-# 카카오 Refresh Token
-KAKAO_REFRESH_TOKEN = ""
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+
+MODEL = "gpt-5.5"
